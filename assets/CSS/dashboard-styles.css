@@ -1,0 +1,79 @@
+.leave-container {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.leave-button {
+    background-color: #ba0606;
+    padding: 1rem 1.2rem 1rem 1.2rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    color: white;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.leave-button:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #2C2A29;
+}
+
+.welcome-message {
+    background-color: #e0e0e0;
+    color: #515151;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+.welcome-message-username {
+    margin-left: 0.5rem;
+    color: #FDDA24;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+}
+
+.options-button {
+    border-radius: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.options-button:hover {
+    background-color: #404040;
+    cursor: pointer;
+}
+
+.options-button1 {
+    background-color: blueviolet;
+}
+
+.options-button2 {
+    background-color: rgb(43, 107, 226);
+}
+
+.options-button3 {
+    background-color: rgb(43, 226, 134);
+}
+
+.options-button4 {
+    background-color: rgb(226, 125, 43);
+}
